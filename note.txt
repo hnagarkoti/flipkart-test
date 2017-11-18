@@ -8,7 +8,21 @@ Reason to Use
 
 
 Things Unable to Complete
-  Searching functionality
+
+  1). Searching functionality
+      Important functionality for searching part
+      i can use this filter functionality like below
+
+      let filteredArray = arrayOfElements // take from localStorage array of notes
+      .filter((element) =>
+        element.subElements.some((subElement) => subElement.surname === 1))
+      .map(element => {
+        let newElt = Object.assign({}, element); // copies element
+        return newElt.subElements.filter(subElement => subElement.surName === '1');
+      });
+
+
+
 
 Things Taken care if more time
   Divide code further into small small components so that can create more and more reusable components.
