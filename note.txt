@@ -1,0 +1,23 @@
+Technology Used
+
+  1). React Js
+
+
+Reason to Use
+  Its a View layer and use Virtual Dom Property to update UI with ease and faster way using differs algo.
+  
+
+Things Unable to Complete
+  Searching functionality
+
+Things Taken care if more time
+  Divide code further into small small components so that can create more and more reusable components.
+
+
+
+Instruction to install application
+
+1). cd flipkart-test
+2). Run command yarn install(if yarn is available) or npm install
+3). Run npm start or yarn start
+4). automatically a new tab will open u can see the running application
