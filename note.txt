@@ -5,7 +5,7 @@ Technology Used
 
 Reason to Use
   Its a View layer and use Virtual Dom Property to update UI with ease and faster way using differs algo.
-  
+
 
 Things Unable to Complete
   Searching functionality
@@ -21,3 +21,5 @@ Instruction to install application
 2). Run command yarn install(if yarn is available) or npm install
 3). Run npm start or yarn start
 4). automatically a new tab will open u can see the running application
+
+5). src/App.js  file for code checking and test case in App.test.js
